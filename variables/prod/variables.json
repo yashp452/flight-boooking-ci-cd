@@ -1,0 +1,11 @@
+{
+    "env": "prod",
+    "gcs_bucket": "new-bucket44",
+    "bq_project": "blissful-scout-471413-i5",
+    "bq_dataset": "flight_data_prod",
+    "tables": {
+      "transformed_table": "transformed_flight_data_prod",
+      "route_insights_table": "route_insights_prod",
+      "origin_insights_table": "origin_insights_prod"
+    }
+}
